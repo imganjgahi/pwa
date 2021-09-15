@@ -10,12 +10,12 @@ function App() {
     <div className="App">
       <nav>
         <Link to="/">Home</Link>
-        <Link to="/about">ABOUT</Link>
-        <Link to="/tasks">TASKS</Link>
+        <Link to="about">ABOUT</Link>
+        <Link to="tasks">TASKS</Link>
       </nav>
         <Switch>
-          <Route path="/tasks"><Tasks /></Route>
-          <Route path="/about"><About /></Route>
+          <Route path="tasks"><Tasks /></Route>
+          <Route path="about"><About /></Route>
           <Route path="/"><Home /></Route>
         </Switch>
 
