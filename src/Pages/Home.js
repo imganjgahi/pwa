@@ -3,7 +3,7 @@ import React from 'react'
 function Home() {
     return (
         <div>
-            THE HOME PAGE OF APP
+            <h1>MEHR APP</h1>
         </div>
     )
 }
