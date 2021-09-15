@@ -5,7 +5,7 @@ function Tasks() {
     const [state, setState] = useState(null)
 
     function fetchData() {
-        fetch('/dummy.json')
+        fetch('dummy.json')
             .then(response => response.json())
             .then(data => setState(data));
     }
