@@ -19,6 +19,18 @@ self.addEventListener('install', function(event) {
                 "/pwa/about/",
                 "/pwa/tasks",
                 "/pwa/tasks/",
+
+                "static/js/main.chunk.js",
+                "static/js/vendors~main.chunk.js",
+                "static/css/vendors~main.chunk.css",
+                "static/js/bundle.js", 
+                "/index.html",
+                "index.html",
+                "/",
+                "about",
+                "about/",
+                "tasks",
+                "tasks/",
             ])
         })
         .catch(err => console.log("ERR: ", err))
