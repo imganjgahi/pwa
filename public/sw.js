@@ -12,16 +12,12 @@ self.addEventListener('install', function(event) {
                 "https://imganjgahi.github.io/pwa/#/",
                 "https://mehrapp.netlify.app",
                 "https://mehrapp.netlify.app/",
-                "/static/js/main.chunk.js",
-                "/static/js/vendors~main.chunk.js",
-                "/static/css/vendors~main.chunk.css",
-                "/static/js/bundle.js", 
-                "/index.html",
-                "/",
-                "/about",
-                "/about/",
-                "/tasks",
-                "/tasks/",
+                "/pwa/static/js/main.chunk.js",
+                "/pwa/static/js/vendors~main.chunk.js",
+                "/pwa/static/css/vendors~main.chunk.css",
+                "/pwa/static/js/bundle.js", 
+                "/pwa/index.html",
+                "/pwa/",
             ])
         })
         .catch(err => console.log("ERR: ", err))
