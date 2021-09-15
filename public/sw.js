@@ -31,6 +31,7 @@ self.addEventListener('install', function(event) {
                 "about/",
                 "tasks",
                 "tasks/",
+                "/dummy.json"
             ])
         })
         .catch(err => console.log("ERR: ", err))
