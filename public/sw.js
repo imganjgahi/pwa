@@ -8,30 +8,16 @@ self.addEventListener('install', function(event) {
         caches.open(cacheData)
         .then(cach => {
             cach.addAll([
-                "/pwa/static/js/main.chunk.js",
-                "/pwa/static/js/vendors~main.chunk.js",
-                "/pwa/static/css/vendors~main.chunk.css",
-                "/pwa/static/js/bundle.js", 
-                "/index.html",
-                "/pwa/index.html",
-                "/",
-                "/pwa/about",
-                "/pwa/about/",
-                "/pwa/tasks",
-                "/pwa/tasks/",
-
                 "static/js/main.chunk.js",
                 "static/js/vendors~main.chunk.js",
                 "static/css/vendors~main.chunk.css",
                 "static/js/bundle.js", 
                 "/index.html",
-                "index.html",
                 "/",
                 "about",
                 "about/",
                 "tasks",
                 "tasks/",
-                "/dummy.json"
             ])
         })
         .catch(err => console.log("ERR: ", err))
