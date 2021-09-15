@@ -1,4 +1,4 @@
-import { BrowserRouter, Link, Route, Switch } from 'react-router-dom';
+import { HashRouter, Link, Route, Switch } from 'react-router-dom';
 import './App.css';
 import About from './Pages/About';
 import Home from './Pages/Home';
@@ -6,7 +6,7 @@ import Tasks from './Pages/Tasks';
 
 function App() {
   return (
-      <BrowserRouter>
+      <HashRouter>
     <div className="App">
       <nav>
         <Link to="/">Home</Link>
@@ -20,7 +20,7 @@ function App() {
         </Switch>
 
     </div>
-      </BrowserRouter>
+      </HashRouter>
   );
 }
 
