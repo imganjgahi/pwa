@@ -13,11 +13,18 @@ self.addEventListener('install', function(event) {
                 "static/css/vendors~main.chunk.css",
                 "static/js/bundle.js", 
                 "/index.html",
+                "/pwa/index.html",
+                "/pwa",
+                "/pwa/",
                 "/",
                 "about",
                 "about/",
                 "tasks",
                 "tasks/",
+                "/pwa/about",
+                "/pwa/about/",
+                "/pwa/tasks",
+                "/pwa/tasks/",
             ])
         })
         .catch(err => console.log("ERR: ", err))
