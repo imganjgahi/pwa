@@ -4,7 +4,6 @@ function Home() {
     return (
         <div>
             THE HOME PAGE OF APP
-            <p>ARE THE ROUTE WORKES?</p>
         </div>
     )
 }
