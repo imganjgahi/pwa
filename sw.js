@@ -8,6 +8,10 @@ self.addEventListener('install', function(event) {
         caches.open(cacheData)
         .then(cach => {
             cach.addAll([
+                "https://imganjgahi.github.io/pwa",
+                "https://imganjgahi.github.io/pwa/#/",
+                "https://mehrapp.netlify.app",
+                "https://mehrapp.netlify.app/",
                 "/static/js/main.chunk.js",
                 "/static/js/vendors~main.chunk.js",
                 "/static/css/vendors~main.chunk.css",
