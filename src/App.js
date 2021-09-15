@@ -6,7 +6,7 @@ import Tasks from './Pages/Tasks';
 
 function App() {
   return (
-      <BrowserRouter>
+      <BrowserRouter basename="pwa">
     <div className="App">
       <nav>
         <Link to="/">Home</Link>
@@ -14,8 +14,8 @@ function App() {
         <Link to="tasks">TASKS</Link>
       </nav>
         <Switch>
-          <Route path="tasks"><Tasks /></Route>
-          <Route path="about"><About /></Route>
+          <Route path="/tasks"><Tasks /></Route>
+          <Route path="/about"><About /></Route>
           <Route path="/"><Home /></Route>
         </Switch>
 
