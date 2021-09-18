@@ -8,13 +8,7 @@ self.addEventListener('install', function (event) {
         caches.open(cacheData)
             .then(cach => {
                 cach.addAll([
-                    "/static/js/main.chunk.js",
-                    "/static/js/vendors~main.chunk.js",
-                    "/static/css/vendors~main.chunk.css",
-                    "/static/js/bundle.js",
-                    "/favicon.ico",
-                    "/logo192.png",
-                    "/logo512.png",
+                    
                     "/index.html",
                     "/"
                 ])
