@@ -33,7 +33,6 @@ self.addEventListener('fetch', function (event) {
                 else {
                     return fetch(event.request)
                     .then(fethRes => {
-                        console.log("FETCH: ", event.request.url)
                         return caches.open("dynamic")
                         .then(cach => {
                             cach.put(event.request.url, fethRes.clone())
